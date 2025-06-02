@@ -20,7 +20,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#secao1">Produção Musical</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -43,13 +43,66 @@
 
                 </div>
             </div>
+        </nav> -->
+
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+
+
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item">
+                        Produção
+                    </a>
+
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Etapas
+                        </a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item">
+                                Pré-Produção
+                            </a>
+                            <a class="navbar-item">
+                                Gravação
+                            </a>
+                            <a class="navbar-item">
+                                Mixagem
+                            </a>
+                            <a class="navbar-item">
+                                Masterização
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="navbar-item">
+                    Ferramentas
+                </a>
+
+                <a class="navbar-item">
+                    Contato
+                </a>
+            </div>
         </nav>
     </header>
 
     <section id="secao1">
         <h1>Produção Musical</h1>
-        
-        <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="A produção musical é o processo de criação, desenvolvimento e finalização de uma música. Envolve várias etapas, desde a composição até a gravação, edição, mixagem e masterização. O objetivo é transformar uma ideia musical em uma obra pronta para ser ouvida pelo público, seja em um disco, nas plataformas digitais ou ao vivo.">
+
+        <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover"
+            data-bs-placement="bottom"
+            data-bs-content="A produção musical é o processo de criação, desenvolvimento e finalização de uma música. Envolve várias etapas, desde a composição até a gravação, edição, mixagem e masterização. O objetivo é transformar uma ideia musical em uma obra pronta para ser ouvida pelo público, seja em um disco, nas plataformas digitais ou ao vivo.">
             O que é a produção musical?
         </button>
         <img src="img/producao.jpg" alt="mesinha de mixagem" width="400" height="100">
@@ -107,7 +160,7 @@
         </div>
     </section>
 
-    <section id="secao3">
+    <!-- <section id="secao3">
         <div class="col col-md-4">
             <h2>Ferramentas</h2>
             <h2>para Iniciar:</h2>
@@ -177,25 +230,156 @@
                 </button>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section id="secao4">
-        <h2>Contato</h2>
-        <div>
-            <p><i class="fa-brands fa-instagram"></i> @arthur_sites_fake</p>
-            <p><i class="fa-brands fa-github"></i> github.com/Arthur</p>
-            <p><i class="fa-brands fa-linkedin"></i> linkedin.com/in/Arthur</p>
+    <section class="section">
+        <div class="container is-clipped">
+            <div id="slider">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-16by9 is-covered">
+                            <img src="https://images.unsplash.com/photo-1550921082-c282cdc432d6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+                                alt="" />
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="item__title">
+                            Mon titre 1
+                        </div>
+                        <div class="item__description">
+                            Ici une petite description pour tester le slider
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-16by9 is-covered">
+                            <img src="https://images.unsplash.com/photo-1550945771-515f118cef86?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
+                                alt="" />
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="item__title">
+                            Mon titre 2
+                        </div>
+                        <div class="item__description">
+                            Ici une petite description pour tester le slider
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-16by9 is-covered">
+                            <img src="https://images.unsplash.com/photo-1550971264-3f7e4a7bb349?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+                                alt="" />
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="item__title">
+                            Mon titre 3
+                        </div>
+                        <div class="item__description">
+                            Ici une petite description pour tester le slider
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-16by9 is-covered">
+                            <img src="https://images.unsplash.com/photo-1550931937-2dfd45a40da0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+                                alt="" />
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="item__title">
+                            Mon titre 4
+                        </div>
+                        <div class="item__description">
+                            Ici une petite description pour tester le slider
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-16by9 is-covered">
+                            <img src="https://images.unsplash.com/photo-1550930516-af8b8cc4f871?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
+                                alt="" />
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="item__title">
+                            Mon titre 5
+                        </div>
+                        <div class="item__description">
+                            Ici une petite description pour tester le slider
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image video-container is-16by9">
+                            <iframe type="text/html" src="https://www.youtube.com/embed/H0v773vKS_U"
+                                frameborder="0"></iframe>
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="item__title">
+                            Mon titre 6
+                        </div>
+                        <div class="item__description">
+                            Ici une petite description pour tester le slider
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <p class="oi">Caso tenha dúvidas tente entrar em contato comigo atráves de algum destes canais de comunicação.
-        </p>
     </section>
 
-    <footer>
-        <p>&copy; 2025 ArthurSitesA. Todos os direitos reservados.</p>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
-        crossorigin="anonymous"></script>
+    <div class='carousel carousel-animated carousel-animate-slide'>
+        <div class='carousel-container'>
+            <div class='carousel-item has-background is-active'>
+                <img class="is-background" src="" alt="" width="640" height="310" />
+                <div class="title">Merry Christmas</div>
+            </div>
+            <div class='carousel-item has-background'>
+                <img class="is-background" src="https://wikiki.github.io/images/singer.jpg" alt="" width="640"
+                    height="310" />
+                <div class="title">Original Gift: Offer a song with <a href="https://lasongbox.com" target="_blank">La
+                        Song Box</a></div>
+            </div>
+            <div class='carousel-item has-background'>
+                <img class="is-background" src="https://wikiki.github.io/images/sushi.jpg" alt="" width="640"
+                    height="310" />
+                <div class="title">Sushi time</div>
+            </div>
+        </div>
+    </div>
+
+        <section id="secao4">
+            <h2>Contato</h2>
+            <div>
+                <p><i class="fa-brands fa-instagram"></i> @arthur_sites_fake</p>
+                <p><i class="fa-brands fa-github"></i> github.com/Arthur</p>
+                <p><i class="fa-brands fa-linkedin"></i> linkedin.com/in/Arthur</p>
+            </div>
+            <p class="oi">Caso tenha dúvidas tente entrar em contato comigo atráves de algum destes canais de
+                comunicação.
+            </p>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 ArthurSitesA. Todos os direitos reservados.</p>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+            crossorigin="anonymous"></script>
+        <script type="text/javascript"
+            src="/node_modules/bulma-extensions/bulma-carousel/dist/bulma-carousel.min.js"></script>
 </body>
 
 </html>
