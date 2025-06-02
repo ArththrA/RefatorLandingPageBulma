@@ -1,0 +1,191 @@
+body {
+    font-family: "Gruppo", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+header {
+    background: #010214;
+    color: #fff;
+    padding: 10px 0;
+
+}
+
+header .container-fluid {
+    background-color: #010214;
+    color: #fff;
+}
+
+header .navbar-brand {
+    color: #fff;
+}
+
+header .nav-link {
+    color: #fff;
+}
+
+.gruppo-regular {
+    font-family: "Gruppo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rajdhani-light {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 10px 0;
+}
+
+#secao1 {
+    background: #030637;
+    padding-bottom: 5 0px;
+    font-size: 20px;
+    padding-left: 0px;
+    display: flex;
+    margin-top: 0;
+}
+
+#secao1 p {
+    padding-left: 20px;
+    padding-right: 20px;
+    flex: 2;
+    color: #fff;
+}
+
+#secao1 h1 {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    font-size: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    flex: 2;
+    color: #fff;
+
+}
+
+#secao1 img {
+    position: relative;
+    margin-left: 0px;
+    padding-left: 0px;
+    border-left: 0px;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    flex: 1;
+    overflow: hidden;
+}
+
+#secao2 {
+    background: #3C0753;
+    display: flex;
+    padding-bottom: 50px;
+    font-size: 17px;
+    padding-left: 0px;
+    color: #fff;
+
+}
+
+#secao2 h2 {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    font-size: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    color: #fff;
+}
+
+#secao2 .card {
+    display: flex;
+}
+
+#secao3 {
+    background: #720455;
+    padding-bottom: 5 0px;
+    font-size: 20px;
+    padding-left: 0px;
+    display: flex;
+    color: #fff;
+}
+
+#secao3 h2 {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    font-size: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #fff;
+    padding-left: 50px;
+}
+
+#secao3 p {
+    color: #fff;
+}
+
+#secao3 img {
+    width: 600px;
+    height: 200px;
+}
+
+#secao4 {
+    background: #910A67;
+    padding-bottom: 5 0px;
+    font-size: 20px;
+    padding-left: 0px;
+    display: flex;
+    color: #fff;
+
+}
+
+#secao4 h2 {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    font-size: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    color: #fff;
+
+}
+
+#secao4 div {
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+#secao4 .oi {
+    padding-left: 50px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #010214;
+    color: white;
+    position: relative;
+}
